@@ -1,0 +1,602 @@
+[
+  {
+    "name": "Rick Sanchez",
+    "status": "Alive",
+    "species": "Human",
+    "origin_name": "Earth (C-137)"
+  },
+  {
+    "name": "Morty Smith",
+    "status": "Alive",
+    "species": "Human",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Summer Smith",
+    "status": "Alive",
+    "species": "Human",
+    "origin_name": "Earth (Replacement Dimension)"
+  },
+  {
+    "name": "Beth Smith",
+    "status": "Alive",
+    "species": "Human",
+    "origin_name": "Earth (Replacement Dimension)"
+  },
+  {
+    "name": "Jerry Smith",
+    "status": "Alive",
+    "species": "Human",
+    "origin_name": "Earth (Replacement Dimension)"
+  },
+  {
+    "name": "Abadango Cluster Princess",
+    "status": "Alive",
+    "species": "Alien",
+    "origin_name": "Abadango"
+  },
+  {
+    "name": "Abradolf Lincler",
+    "status": "unknown",
+    "species": "Human",
+    "origin_name": "Earth (Replacement Dimension)"
+  },
+  {
+    "name": "Adjudicator Rick",
+    "status": "Dead",
+    "species": "Human",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Agency Director",
+    "status": "Dead",
+    "species": "Human",
+    "origin_name": "Earth (Replacement Dimension)"
+  },
+  {
+    "name": "Alan Rails",
+    "status": "Dead",
+    "species": "Human",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Albert Einstein",
+    "status": "Dead",
+    "species": "Human",
+    "origin_name": "Earth (C-137)"
+  },
+  {
+    "name": "Alexander",
+    "status": "Dead",
+    "species": "Human",
+    "origin_name": "Earth (C-137)"
+  },
+  {
+    "name": "Alien Googah",
+    "status": "unknown",
+    "species": "Alien",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Alien Morty",
+    "status": "unknown",
+    "species": "Alien",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Alien Rick",
+    "status": "unknown",
+    "species": "Alien",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Amish Cyborg",
+    "status": "Dead",
+    "species": "Alien",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Annie",
+    "status": "Alive",
+    "species": "Human",
+    "origin_name": "Earth (C-137)"
+  },
+  {
+    "name": "Antenna Morty",
+    "status": "Alive",
+    "species": "Human",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Antenna Rick",
+    "status": "unknown",
+    "species": "Human",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Ants in my Eyes Johnson",
+    "status": "unknown",
+    "species": "Human",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Rick Sanchez",
+    "status": "Alive",
+    "species": "Human",
+    "origin_name": "Earth (C-137)"
+  },
+  {
+    "name": "Morty Smith",
+    "status": "Alive",
+    "species": "Human",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Summer Smith",
+    "status": "Alive",
+    "species": "Human",
+    "origin_name": "Earth (Replacement Dimension)"
+  },
+  {
+    "name": "Beth Smith",
+    "status": "Alive",
+    "species": "Human",
+    "origin_name": "Earth (Replacement Dimension)"
+  },
+  {
+    "name": "Jerry Smith",
+    "status": "Alive",
+    "species": "Human",
+    "origin_name": "Earth (Replacement Dimension)"
+  },
+  {
+    "name": "Abadango Cluster Princess",
+    "status": "Alive",
+    "species": "Alien",
+    "origin_name": "Abadango"
+  },
+  {
+    "name": "Abradolf Lincler",
+    "status": "unknown",
+    "species": "Human",
+    "origin_name": "Earth (Replacement Dimension)"
+  },
+  {
+    "name": "Adjudicator Rick",
+    "status": "Dead",
+    "species": "Human",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Agency Director",
+    "status": "Dead",
+    "species": "Human",
+    "origin_name": "Earth (Replacement Dimension)"
+  },
+  {
+    "name": "Alan Rails",
+    "status": "Dead",
+    "species": "Human",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Albert Einstein",
+    "status": "Dead",
+    "species": "Human",
+    "origin_name": "Earth (C-137)"
+  },
+  {
+    "name": "Alexander",
+    "status": "Dead",
+    "species": "Human",
+    "origin_name": "Earth (C-137)"
+  },
+  {
+    "name": "Alien Googah",
+    "status": "unknown",
+    "species": "Alien",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Alien Morty",
+    "status": "unknown",
+    "species": "Alien",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Alien Rick",
+    "status": "unknown",
+    "species": "Alien",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Amish Cyborg",
+    "status": "Dead",
+    "species": "Alien",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Annie",
+    "status": "Alive",
+    "species": "Human",
+    "origin_name": "Earth (C-137)"
+  },
+  {
+    "name": "Antenna Morty",
+    "status": "Alive",
+    "species": "Human",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Antenna Rick",
+    "status": "unknown",
+    "species": "Human",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Ants in my Eyes Johnson",
+    "status": "unknown",
+    "species": "Human",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Aqua Morty",
+    "status": "unknown",
+    "species": "Humanoid",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Aqua Rick",
+    "status": "unknown",
+    "species": "Humanoid",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Arcade Alien",
+    "status": "unknown",
+    "species": "Alien",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Armagheadon",
+    "status": "Alive",
+    "species": "Alien",
+    "origin_name": "Signus 5 Expanse"
+  },
+  {
+    "name": "Armothy",
+    "status": "Dead",
+    "species": "unknown",
+    "origin_name": "Post-Apocalyptic Earth"
+  },
+  {
+    "name": "Arthricia",
+    "status": "Alive",
+    "species": "Alien",
+    "origin_name": "Purge Planet"
+  },
+  {
+    "name": "Artist Morty",
+    "status": "Alive",
+    "species": "Human",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Attila Starwar",
+    "status": "Alive",
+    "species": "Human",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Baby Legs",
+    "status": "Alive",
+    "species": "Human",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Baby Poopybutthole",
+    "status": "Alive",
+    "species": "Poopybutthole",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Baby Wizard",
+    "status": "Dead",
+    "species": "Alien",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Bearded Lady",
+    "status": "Dead",
+    "species": "Alien",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Beebo",
+    "status": "Dead",
+    "species": "Alien",
+    "origin_name": "Venzenulon 7"
+  },
+  {
+    "name": "Benjamin",
+    "status": "Alive",
+    "species": "Poopybutthole",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Bepisian",
+    "status": "Alive",
+    "species": "Alien",
+    "origin_name": "Bepis 9"
+  },
+  {
+    "name": "Beta-Seven",
+    "status": "Alive",
+    "species": "Alien",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Beth Sanchez",
+    "status": "Alive",
+    "species": "Human",
+    "origin_name": "Earth (C-500A)"
+  },
+  {
+    "name": "Beth Smith",
+    "status": "Alive",
+    "species": "Human",
+    "origin_name": "Earth (C-137)"
+  },
+  {
+    "name": "Beth Smith",
+    "status": "Alive",
+    "species": "Human",
+    "origin_name": "Earth (Evil Rick's Target Dimension)"
+  },
+  {
+    "name": "Beth's Mytholog",
+    "status": "Dead",
+    "species": "Mythological Creature",
+    "origin_name": "Nuptia 4"
+  },
+  {
+    "name": "Big Boobed Waitress",
+    "status": "Alive",
+    "species": "Mythological Creature",
+    "origin_name": "Fantasy World"
+  },
+  {
+    "name": "Big Head Morty",
+    "status": "unknown",
+    "species": "Human",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Big Morty",
+    "status": "Dead",
+    "species": "Human",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Body Guard Morty",
+    "status": "Dead",
+    "species": "Human",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Bill",
+    "status": "Alive",
+    "species": "Human",
+    "origin_name": "Earth (C-137)"
+  },
+  {
+    "name": "Bill",
+    "status": "unknown",
+    "species": "Animal",
+    "origin_name": "Earth (Replacement Dimension)"
+  },
+  {
+    "name": "Birdperson",
+    "status": "Alive",
+    "species": "Alien",
+    "origin_name": "Bird World"
+  },
+  {
+    "name": "Black Rick",
+    "status": "Alive",
+    "species": "Human",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Blamph",
+    "status": "Alive",
+    "species": "Alien",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Blim Blam",
+    "status": "Alive",
+    "species": "Alien",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Blue Diplomat",
+    "status": "Alive",
+    "species": "Alien",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Blue Footprint Guy",
+    "status": "Dead",
+    "species": "Human",
+    "origin_name": "Post-Apocalyptic Earth"
+  },
+  {
+    "name": "Blue Shirt Morty",
+    "status": "unknown",
+    "species": "Human",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Bobby Moynihan",
+    "status": "Alive",
+    "species": "Human",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Boobloosian",
+    "status": "Dead",
+    "species": "Alien",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Bootleg Portal Chemist Rick",
+    "status": "Dead",
+    "species": "Human",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Borpocian",
+    "status": "Alive",
+    "species": "Alien",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Brad",
+    "status": "Alive",
+    "species": "Human",
+    "origin_name": "Earth (Replacement Dimension)"
+  },
+  {
+    "name": "Brad Anderson",
+    "status": "Dead",
+    "species": "Human",
+    "origin_name": "Earth (Replacement Dimension)"
+  },
+  {
+    "name": "Calypso",
+    "status": "Dead",
+    "species": "Human",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Campaign Manager Morty",
+    "status": "Dead",
+    "species": "Human",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Canklanker Thom",
+    "status": "Dead",
+    "species": "Alien",
+    "origin_name": "Gromflom Prime"
+  },
+  {
+    "name": "Centaur",
+    "status": "Alive",
+    "species": "Mythological Creature",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Chris",
+    "status": "Dead",
+    "species": "Alien",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Chris",
+    "status": "Alive",
+    "species": "Humanoid",
+    "origin_name": "Rick's Battery Microverse"
+  },
+  {
+    "name": "Coach Feratu (Balik Alistane)",
+    "status": "Dead",
+    "species": "Mythological Creature",
+    "origin_name": "Earth (Replacement Dimension)"
+  },
+  {
+    "name": "Collector",
+    "status": "Alive",
+    "species": "Alien",
+    "origin_name": "The Menagerie"
+  },
+  {
+    "name": "Colossus",
+    "status": "Dead",
+    "species": "Human",
+    "origin_name": "Post-Apocalyptic Earth"
+  },
+  {
+    "name": "Commander Rick",
+    "status": "Dead",
+    "species": "Human",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Concerto",
+    "status": "Dead",
+    "species": "Humanoid",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Conroy",
+    "status": "Dead",
+    "species": "Robot",
+    "origin_name": "Earth (Replacement Dimension)"
+  },
+  {
+    "name": "Cool Rick",
+    "status": "Alive",
+    "species": "Human",
+    "origin_name": "Earth (K-83)"
+  },
+  {
+    "name": "Cop Morty",
+    "status": "Dead",
+    "species": "Human",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Cop Rick",
+    "status": "Alive",
+    "species": "Human",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Courier Flap",
+    "status": "Alive",
+    "species": "Alien",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Cousin Nicky",
+    "status": "Dead",
+    "species": "Alien",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Cowboy Morty",
+    "status": "Alive",
+    "species": "Human",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Cowboy Rick",
+    "status": "Alive",
+    "species": "Human",
+    "origin_name": "unknown"
+  },
+  {
+    "name": "Crab Spider",
+    "status": "Alive",
+    "species": "Alien",
+    "origin_name": "Hideout Planet"
+  },
+  {
+    "name": "Creepy Little Girl",
+    "status": "Alive",
+    "species": "Human",
+    "origin_name": "unknown"
+  }
+]
