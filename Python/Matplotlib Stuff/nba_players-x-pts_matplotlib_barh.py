@@ -7,7 +7,7 @@ import pandas as pd
 #Windows filepaths
 corepath = 'C:\\Users\\taylo\\OneDrive\\Documents\\Python_Scripts'
 filepath1 = corepath + '\\thisismystuff\\Matplotlib Stuff\\'
-filepath2 = corepath + '\\thisismystuff\\Matplotlib Stuff\\NBA Separated CSVs\\'
+filepath2 = filepath1 + 'NBA Separated CSVs\\'
 
 #Input three-letter Team code
 team = input('Team: ')
@@ -34,7 +34,7 @@ x = df_sorted['Player'].tolist()
 y = df_sorted['PTS'].tolist()
 
 #Plot x and y in horizontal bar chart for maximum
-#readability
+#readability and adds PTS value as label on bar edge
 barplot = plt.barh(x, y,color = '#ee6730')
 plt.bar_label(barplot, labels = y, label_type = 'edge')
 plt.grid(axis = 'x', linestyle = '--',alpha=0.5)
