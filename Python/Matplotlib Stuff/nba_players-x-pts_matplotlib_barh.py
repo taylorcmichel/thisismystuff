@@ -1,3 +1,6 @@
+# This script continues work on the 'NBA Player Performance Stats'
+# dataset from Kaggle by building Matplotlib bar charts from
+# custom dataframes constructed from the overall raw CSV.
 import matplotlib.pyplot as plt
 import pandas as pd
 
