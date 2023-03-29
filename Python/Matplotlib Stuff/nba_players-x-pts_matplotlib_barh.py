@@ -1,14 +1,16 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
-corepath = '/Users/ifhpclothing/Documents'
-filepath = corepath + '/Python_Scripts/NBA Separated CSVs/'
+#Windows filepaths
+corepath = 'C:\\Users\\taylo\\OneDrive\\Documents\\Python_Scripts'
+filepath1 = corepath + '\\thisismystuff\\Matplotlib Stuff\\'
+filepath2 = corepath + '\\thisismystuff\\Matplotlib Stuff\\NBA Separated CSVs\\'
 
 #Input three-letter Team code
 team = input('Team: ')
 
 #Read respective separated CSV determined by user input
-data = pd.read_csv(filepath + f'nba_separated_{team}.csv')
+data = pd.read_csv(filepath2 + f'nba_separated_{team}.csv')
 
 #Construct lists based upon Player and PTS extracted from
 #the CSV read into the 'data' variable above
@@ -30,7 +32,8 @@ y = df_sorted['PTS'].tolist()
 
 #Plot x and y in horizontal bar chart for maximum
 #readability
-plt.barh(x, y,color = '#ee6730')
+barplot = plt.barh(x, y,color = '#ee6730')
+plt.bar_label(barplot, labels = y, label_type = 'edge')
 plt.grid(axis = 'x', linestyle = '--',alpha=0.5)
 plt.title(f'{team} Players Ranked by PTS')
 plt.yticks(fontsize = 8)
