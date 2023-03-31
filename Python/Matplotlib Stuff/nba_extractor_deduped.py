@@ -7,6 +7,7 @@
 
 import pandas as pd
 
+#Mac filepaths
 corepath = '/Users/ifhpclothing/Documents'
 filepath = corepath + '/Python_Scripts/NBA Separated CSVs'
 
