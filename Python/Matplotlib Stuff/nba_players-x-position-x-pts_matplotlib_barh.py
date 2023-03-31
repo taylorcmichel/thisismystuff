@@ -5,9 +5,9 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 #Windows filepaths
-corepath = 'C:\\Users\\taylo\\OneDrive\\Documents\\Python_Scripts'
-filepath1 = corepath + '\\thisismystuff\\Matplotlib Stuff\\'
-filepath2 = filepath1 + 'NBA Separated CSVs\\'
+corepath = '*'
+filepath1 = corepath + '\*'
+filepath2 = filepath1 + '*\\'
 
 #Input three-letter Team code
 position = input('Position: ')
