@@ -1,1 +1,1 @@
-ReadMe
+My preferred filepaths on both of my working computers are somewhat complicated, so I break them up in order to try to adhere to PEP 8, hence the concatenation. In order to not show my personal file paths, I've deleted their content here in each script and kept the necessary information, such as required CSV title, an such.
