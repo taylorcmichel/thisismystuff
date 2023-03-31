@@ -9,7 +9,7 @@ import pandas as pd
 
 #Mac filepaths
 corepath = '*'
-filepath = corepath + '../NBA Separated CSVs'
+filepath = corepath + '*'
 
 #Read the raw CSV into the main dataframe
 data = pd.read_csv('nba_data_processed.csv')
