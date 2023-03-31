@@ -4,12 +4,20 @@
 # dataframe to its own CSV and saves it to the local drive in the same
 # folder where the script resides. Thus, the analyst can conduct team-
 # specific analysis with ease.
+#
+# Of note, this script loops through both the Team name and Position
+# lists twice: once to build and once to de-dupe by player name. This
+# is not done in the name of pre-cleaning the data for graphic purposes.
+# That said, because these graphs are done only for the purposes of
+# demonstrating the use of the Pandas and Matplotlib libraries and not
+# for the purposes of data analysis, the de-duping was not accompanied
+# by the averaging of stats for each player.
 
 import pandas as pd
 
 #Mac filepaths
-corepath = '*'
-filepath = corepath + '*'
+corepath = '/Users/ifhpclothing/Documents'
+filepath = corepath + '/Python_Scripts/NBA Separated CSVs'
 
 #Read the raw CSV into the main dataframe
 data = pd.read_csv('nba_data_processed.csv')
@@ -53,3 +61,5 @@ for y in range(len(position_name_lst)):
 	y_df = pd.read_csv(filepath+f'/nba_separated_{position_name_lst[y]}.csv')
 	y_df_deduped = y_df.drop_duplicates(subset=['Player'])
 	y_df_deduped.to_csv(filepath+f'/nba_separated_{position_name_lst[y]}.csv')
+
+
