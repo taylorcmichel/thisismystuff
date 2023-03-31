@@ -6,7 +6,7 @@ import pandas as pd
 
 #Windows filepaths
 corepath = '*'
-filepath1 = corepath + '\*'
+filepath1 = corepath + '\\*'
 filepath2 = filepath1 + '*\\'
 
 #Input three-letter Team code
