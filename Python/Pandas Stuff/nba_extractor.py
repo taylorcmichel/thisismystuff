@@ -8,9 +8,9 @@
 import pandas as pd
 
 #Windows filepaths
-corepath = 'C:\\Users\\taylo\\OneDrive\\Documents\\Python_Scripts'
-filepath1 = corepath + '\\thisismystuff\\Pandas Stuff\\'
-filepath2 = corepath + '\\thisismystuff\\Pandas Stuff\\NBA Separated CSVs\\'
+corepath = '*'
+filepath1 = corepath + '*'
+filepath2 = corepath + '*'
 
 #Read the raw CSV into the main dataframe
 data = pd.read_csv(filepath1 + 'nba_data_processed.csv')
