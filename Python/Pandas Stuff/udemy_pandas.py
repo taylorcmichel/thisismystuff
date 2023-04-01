@@ -17,8 +17,8 @@
 import pandas as pd
 
 #Mac filepaths
-corepath = '/Users/ifhpclothing/Documents/Python_Scripts/'
-filepath = corepath + 'Kaggle Udemy/'
+corepath = '*'
+filepath = corepath + '*'
 
 #Set dataframe option to print all columns upon printing
 #Personal preference, not required
