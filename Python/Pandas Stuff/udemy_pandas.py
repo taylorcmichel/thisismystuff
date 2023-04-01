@@ -34,8 +34,8 @@ instructor_url = df['url'].tolist()
 
 #Create new dataframe/table using lists created just above
 ndf = pd.DataFrame({'job_title': instructor_job_title,
-					'initials': instructor_initials,
-					'url': instructor_url})
+		    'initials': instructor_initials,
+		    'url': instructor_url})
 
 #Drop above columns plus those with references to images from original
 #dataframe/table
