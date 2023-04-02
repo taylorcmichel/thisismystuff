@@ -15,8 +15,8 @@
 import pandas as pd
 
 #Filepaths
-corepath = '/Users/ifhpclothing/Documents/Python_Scripts/'
-filepath = corepath + 'Kaggle Udemy/'
+corepath = '*'
+filepath = corepath + '*'
 
 #Read the raw CSV into a Pandas dataframe
 df = pd.read_csv(filepath + 'courses.csv')
