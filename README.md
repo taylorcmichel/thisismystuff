@@ -11,4 +11,4 @@ Feel free to peruse. Feel free to critique. Feel free to contact.
 
 I hope you enjoy.
 
-- Taylor
+Signed, Taylor
