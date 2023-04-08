@@ -19,8 +19,8 @@
 
 import pandas as pd
 
-corepath = '/Users/ifhpclothing/Documents'
-filepath = corepath + '/Python_Scripts/NBA Separated CSVs'
+corepath = '*'
+filepath = corepath + '*'
 
 #Read the raw CSV into the main dataframe
 data = pd.read_csv('nba_data_processed.csv')
