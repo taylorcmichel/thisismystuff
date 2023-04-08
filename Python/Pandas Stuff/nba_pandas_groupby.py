@@ -20,8 +20,8 @@
 import pandas as pd
 
 #Filepaths
-corepath = '/Users/ifhpclothing/Documents/Python_Scripts/'
-filepath = corepath + 'Kaggle NBA/'
+corepath = '*'
+filepath = corepath + '*'
 
 #Load dataframe with raw CSV
 df = pd.read_csv('nba_data_processed.csv')
