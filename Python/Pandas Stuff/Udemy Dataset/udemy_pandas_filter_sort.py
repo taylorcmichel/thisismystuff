@@ -37,7 +37,7 @@ python = df['title'].str.contains('Python', na=False)
 #Create a new dataframe using the above filters and only the referenced
 #columns, leaving all other columns out
 ndf = df.loc[high_rating & high_num_reviews & python,
-			['title', 'duration', 'rating', 'num_reviews']]
+      ['title', 'duration', 'rating', 'num_reviews']]
 
 #Sort by ratings, descending
 ndf.sort_values(['rating'], inplace=True, ascending=False)
