@@ -14,9 +14,9 @@
 
 import pandas as pd
 
-#Mac filepaths
-corepath = '/Users/ifhpclothing/Documents/Python_Scripts/'
-filepath = corepath + 'Kaggle Udemy/'
+#Filepaths
+corepath = '*'
+filepath = corepath + '*'
 
 #Set dataframe option to print all columns upon printing
 #Personal preference, not required
@@ -34,5 +34,3 @@ print(list(df.columns))
 
 #Write the amended dataframe to a new CSV
 df.to_csv(filepath + 'instructors_result_drop.csv')
-
-
