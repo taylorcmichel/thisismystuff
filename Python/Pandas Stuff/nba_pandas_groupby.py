@@ -9,7 +9,7 @@
 # 2. Reset the index of the dataset to the 'Player' column
 # 3. Create an iterable list of Team 3-letter codes for querying
 # 4. Create a While loop for indefinite iteration of core code
-# 5. Print unpacked list of 3-letter NBA Team codes
+# 5. Print unpacked lists of 3-letter NBA Team codes
 # 6. Prompt for user input of valid 3-letter NBA Team code
 # 7. Print team stats contained in CSV for user-defined query
 # 8. Cycle back to 5-7 until 'exit' or 'EXIT' is input by user
@@ -20,8 +20,8 @@
 import pandas as pd
 
 #Filepaths
-corepath = '*'
-filepath = corepath + '*'
+corepath = '/Users/ifhpclothing/Documents/Python_Scripts/'
+filepath = corepath + 'Kaggle NBA/'
 
 #Load dataframe with raw CSV
 df = pd.read_csv('nba_data_processed.csv')
@@ -33,15 +33,19 @@ df.set_index('Player', inplace=True)
 #personal preference
 pd.set_option('display.max_columns', 800)
 
-#Create iterable list of 3-letter Team codes
+#Create iterable lists of 3-letter Team codes
 tm_lst = list(set(df['Tm'].tolist()))
+tm_lst_1 = tm_lst[0:15]
+tm_lst_2 = tm_lst[15:31]
 
 #Create while loop for indefinite iteration of core code
 op = False
 while op == False:
 
-	#Unpack 'tm_lst' and separate it for readability while printing
-	print(*tm_lst, sep = ' | ')
+	#Unpack 'tm_lst-1' and 'tm_lst_2'and separate them for
+	#readability while printing
+	print(*tm_lst_1, sep = ' | ')
+	print(*tm_lst_2, sep = ' | ')
 
 	#Prompt user for input
 	team = input('Input Team: ').upper()
