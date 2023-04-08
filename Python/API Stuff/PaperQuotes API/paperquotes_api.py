@@ -2,7 +2,7 @@
 # allows you to submit GET requests to pull famous quotes based on a
 # variety of conditions, of which I used number of quotes to pull.
 # 
-# https://api.paperquotes.com/
+# https://paperquotes.com/
 #
 # The intent of this script is to:
 # 1. Create an empty 'results_lst' to store a dictionary/JSON of queried
