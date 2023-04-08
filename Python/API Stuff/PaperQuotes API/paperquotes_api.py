@@ -7,15 +7,15 @@
 # The intent of this script is to:
 # 1. Create an empty 'results_lst' to store a dictionary/JSON of queried
 #    quotes later in the script
-# 1. Query data dynamically from the API based upon a number of quotes
-# 2. Submit the header and TOKEN as authorization for access
-# 3. Build a new dictionary/JSON object based upon the 'results' portion
+# 2. Query data dynamically from the API based upon a number of quotes
+# 3. Submit the header and TOKEN as authorization for access
+# 4. Build a new dictionary/JSON object based upon the 'results' portion
 #    of the API JSON object
 # 5. Append the results of each query to the pre-created 'results_lst'
 #    one at a time
 # 6. Print each new queried quote to the terminal one at at time QC the
 #    script as it proceeds
-# 6. Write all queried quotes to a new local JSON file using json.dump 
+# 7. Write all queried quotes to a new local JSON file using json.dump  
 # 
 # This new JSON file will isolate a core of information that we can that
 # we can further focus on if need be. Probably need to, if anything is
