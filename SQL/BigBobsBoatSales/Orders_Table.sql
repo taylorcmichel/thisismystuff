@@ -9,9 +9,16 @@ CREATE TABLE Orders_Table (
 	Total_Sales_Revenue 	money
 );
 
-INSERT INTO Orders_Table
-	(Order_Number, Product_Code, State_ID, Region_ID, Sales_Agent_ID, Date_of_Sale,
-	Qty_Sold, Total_Sales_Revenue)
+INSERT INTO Orders_Table (
+	Order_Number,
+	Product_Code,
+	State_ID,
+	Region_ID,
+	Sales_Agent_ID,
+	Date_of_Sale,
+	Qty_Sold,
+	Total_Sales_Revenue
+)
 VALUES
 	('10101', 'BT_1014', 'L40', 'R3', '473', '2020-03-31', '2', '1878820'),
 	('10102', 'BT_1005', 'L49', 'R4', '480', '2020-03-31', '3', '1882657.5'),
