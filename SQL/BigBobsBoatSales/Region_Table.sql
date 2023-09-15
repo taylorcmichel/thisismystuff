@@ -3,8 +3,10 @@ CREATE TABLE Region_Table (
 	Region 		varchar(10) 			NOT NULL
 );
 
-INSERT INTO Region_Table
-	(Region_ID, Region)
+INSERT INTO Region_Table (
+	Region_ID,
+	Region
+)
 VALUES
 	('R1', 'West'		),
 	('R2', 'Midwest'	),
