@@ -3,8 +3,10 @@ CREATE TABLE Sales_Agent_Table (
 	Sales_Agent_Name 	varchar(20)
 );
 
-INSERT INTO Sales_Agent_Table
-	(Sales_Agent_ID, Sales_Agent_Name)
+INSERT INTO Sales_Agent_Table (
+	Sales_Agent_ID,
+	Sales_Agent_Name
+)
 VALUES
 	('473','David'		),
 	('474','Ezekiel'	),
