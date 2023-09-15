@@ -1,6 +1,6 @@
 CREATE TABLE States_Table (
 	Location_ID varchar (3) PRIMARY KEY NOT NULL,
-	Region_ID varchar(2) FOREIGN KEY NOT NULL,
+	Region_ID varchar(2) FOREIGN KEY REFERENCES Region_Table(Region_ID) NOT NULL,
 	Principle_State varchar(15) NOT NULL
 );
 
