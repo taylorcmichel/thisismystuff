@@ -7,8 +7,12 @@ CREATE TABLE Products_Table (
 );
 
 INSERT INTO Products_Table (
-	Product_Code, Boat_Model_Name, Boat_Length_Feet, Manufacturing_and_Inventory_Cost,
-	Retail_Price)
+	Product_Code,
+	Boat_Model_Name,
+	Boat_Length_Feet,
+	Manufacturing_and_Inventory_Cost,
+	Retail_Price
+)
 VALUES 
 	('BT_1001', 'Gulf Regular',		'70', '102856', '166348'),
 	('BT_1002', 'Ocean View',		'72', '207222', '270984'),
