@@ -3,8 +3,8 @@
 -- descending order.
 
 SELECT
-	  DISTINCT(Sales_Agent_Name),
-    SUM(Qty_Sold) OVER(PARTITION BY Sales_Agent_Name) AS Qty_Sold
+	DISTINCT(Sales_Agent_Name),
+	SUM(Qty_Sold) OVER(PARTITION BY Sales_Agent_Name) AS Qty_Sold
 FROM Orders_Table a
 INNER JOIN Products_Table b
 ON (
