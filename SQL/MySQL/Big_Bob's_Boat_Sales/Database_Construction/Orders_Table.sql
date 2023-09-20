@@ -1,17 +1,17 @@
 CREATE TABLE Orders_Table (
-	Order_Number 		    varchar(5)					NOT NULL,
-	Product_Code 		    varchar(10) 				NOT NULL,
-	State_ID 			      varchar(3)					NOT NULL,
-	Region_ID 			    varchar(2) 	 				NOT NULL,
-	Sales_Agent_ID     	varchar(3) 	 				NOT NULL,
-	Date_of_Sale 		    date 						    NOT NULL,
-	Qty_Sold 			      int                 NOT NULL,
-	Total_Sales_Revenue	decimal(9,2)        NOT NULL,
+	Order_Number 		varchar(5)	NOT NULL,
+	Product_Code 		varchar(10) 	NOT NULL,
+	State_ID 		varchar(3)	NOT NULL,
+	Region_ID 		varchar(2) 	NOT NULL,
+	Sales_Agent_ID     	varchar(3) 	NOT NULL,
+	Date_of_Sale 		date 		NOT NULL,
+	Qty_Sold 		int             NOT NULL,
+	Total_Sales_Revenue	decimal(9,2)    NOT NULL,
   PRIMARY KEY (Order_Number),
-  FOREIGN KEY (Product_Code) 		REFERENCES Products_Table(Product_Code),
-  FOREIGN KEY (State_ID) 			  REFERENCES States_Table(Location_ID),
-  FOREIGN KEY (Region_ID) 		  REFERENCES Region_Table(Region_ID),
-  FOREIGN KEY (Sales_Agent_ID) 	REFERENCES Sales_Agent_Table(Sales_Agent_ID)
+  FOREIGN KEY (Product_Code)			REFERENCES Products_Table(Product_Code),
+  FOREIGN KEY (State_ID) 			REFERENCES States_Table(Location_ID),
+  FOREIGN KEY (Region_ID) 		  	REFERENCES Region_Table(Region_ID),
+  FOREIGN KEY (Sales_Agent_ID) 			REFERENCES Sales_Agent_Table(Sales_Agent_ID)
 );
 
 INSERT INTO Orders_Table (
