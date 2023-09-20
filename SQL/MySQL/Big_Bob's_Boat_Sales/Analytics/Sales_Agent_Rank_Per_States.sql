@@ -1,8 +1,8 @@
 SELECT
-	  DISTINCT(Sales_Agent_Name),
-    Qty_Sold,
-    Principle_State,
-    DENSE_RANK() OVER(PARTITION BY Principle_State ORDER BY Qty_Sold DESC) AS Qty_Sold_Rank
+	DISTINCT(Sales_Agent_Name),
+	Qty_Sold,
+	Principle_State,
+	DENSE_RANK() OVER(PARTITION BY Principle_State ORDER BY Qty_Sold DESC) AS Qty_Sold_Rank
 FROM Orders_Table a
 INNER JOIN Products_Table b
 ON (
