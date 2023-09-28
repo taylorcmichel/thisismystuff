@@ -1,3 +1,8 @@
+-- Use a Common Table Expression (CTE) to build a virtual table with the
+-- Sales Agent Name and Qty Sold (Windows Function), then selecting
+-- the Sales Agent Name and Qty Sold from this virtual table and ranking
+-- them and limiting the final results to the Top 10.
+
 WITH cte_Total_Sold_Per_Sales_Agent (
   Sales_Agent_Name,
   Qty_Sold
